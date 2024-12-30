@@ -13,9 +13,9 @@ yarn expo run:[android/ios] --variant release
 ```
 
 To build and export final standalone apps:
-```
-npx expo export (--platform [**all**/web/android/ios])
-```
+<pre>
+npx expo export (--platform [<b>all</b>/web/android/ios])
+</pre>
 
 To update packages, etc:
 ```
