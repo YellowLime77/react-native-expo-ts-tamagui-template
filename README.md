@@ -7,9 +7,14 @@ yarn expo start
 ```
 If you encounter problems connecting through Expo Go, add ```--tunnel``` to the end of the command and manually connect
 
-To build standalone app for Android/iOs:
+To send standalone app for Android/iOs:
 ```
 yarn expo run:[android/ios] --variant release
+```
+
+To build and export final standalone apps:
+```
+npx expo export (--platform [**all**/web/android/ios])
 ```
 
 To update packages, etc:
