@@ -12,7 +12,7 @@ To send standalone app for Android/iOs:
 yarn expo run:[android/ios] --variant release
 </pre>
 
-To build and export final standalone apps:
+To build and export final standalone apps (for example to build for website):
 <pre>
 yarn expo export (--platform [<b>all</b>/web/android/ios])
 </pre>
