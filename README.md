@@ -7,7 +7,7 @@ yarn expo start
 </pre>
 If you encounter problems connecting through Expo Go, add ```--tunnel``` to the end of the command and manually connect
 
-To send standalone app for Android/iOs:
+To send standalone app for Android/iOS:
 <pre>
 yarn expo run:[android/ios] --variant release
 </pre>
